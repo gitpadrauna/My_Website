@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - MyWebsite</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #fff;
+      padding: 20px 40px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #007BFF;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #007BFF;
+    }
+
+    .about-section {
+      padding: 60px 20px;
+      background-color: white;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .about-section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #007BFF;
+    }
+
+    .about-section p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .team-section {
+      background-color: #e8f0fe;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .team-section h3 {
+      font-size: 30px;
+      margin-bottom: 40px;
+    }
+
+    .team-members {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .member {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .member img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .member h4 {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #007BFF;
+    }
+
+    .member p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer {
+      background: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+      border-top: 1px solid #ddd;
+    }
+
+    @media (max-width: 768px) {
+      .team-members {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>MyWebsite</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      
+  </header>
+
+  <!-- About Content -->
+  <section class="about-section">
+    <h2>About Us</h2>
+    <p>Welcome to MyWebsite! We are a passionate team of developers, designers, and digital strategists dedicated to crafting beautiful and functional websites. Our mission is to empower individuals and businesses with a strong online presence.</p>
+    <p>Founded in 2025, we have already helped dozens of clients turn their ideas into live, high-performing web experiences. Whether you’re a startup, a small business, or an individual creator — we’re here to support your digital journey.</p>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section">
+    <h3>Meet Our Team</h3>
+    <div class="team-members">
+      <div class="member">
+        <img src="https://via.placeholder.com/250x200" alt="Team Member 1" />
+        <h4>Rahul Sharma</h4>
+        <p>Frontend Developer</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/250x200" alt="Team Member 2" />
+        <h4>Anjali Mehta</h4>
+        <p>UI/UX Designer</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/250x200" alt="Team Member 3" />
+        <h4>Sameer Khan</h4>
+        <p>Backend Developer</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 MyWebsite. All rights reserved.
+  </footer>
+
+</body>
+</html>
